@@ -11,8 +11,9 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 20px; 
     width: auto;
+    background-color: #485e2d;
 }
 main{
     width: auto;
@@ -21,8 +22,11 @@ main{
 }
 section{
     background-color: #284219c9;
-    border: 6px solid;
+    border: 3px solid;
     border-color: #485e2d;
+}
+section ul{
+    color: #d4e8c2;
 }
 nav{
     background-color: #111a09;
@@ -31,9 +35,6 @@ nav{
     position: sticky;
     top: 0;
     z-index: 100;
-}
-nav img{
-    width: 50px;
 }
 nav ul{
     list-style: none;
@@ -57,7 +58,29 @@ h3{
 p{
     color: #d4e8c2;
 }
-#introduccion{
-    justify-content: center;
+img{
+    width: 250px;
+    /*Centrar*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
+footer{
+    background-color: #111a09;
+    padding: 15px;
+    margin-top: 30px;
+    width: auto;
+    color: #818c3c;
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+details{
+    color: #d4e8c2;
 }
